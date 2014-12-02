@@ -11,3 +11,13 @@ Heb contact gehad met de maker van deze extensie, hij vertelde mij dat er in ver
 Deze extensie kan niet ontbreken in onze vertalingsdatabase, op het moment is de extensie nog volop in ontwikkeling. Er kan dus nog veel veranderen, daarom wacht ik nog even met het toevoegen van bestanden (gezien de grote van de ext). Zie dit als een 'placeholder'of een 'to do'
 
 
+Installatie
+===========
+
+1. Download en pak het pakket uit
+2. Upload de map nl naar ext/phpbbgallery/core/language/
+3. Leeg de cache
+
+LET OP: De locatie is niet helemaal juist omdat de auteur nog geen duidelijke map structuur heeft. Het zou /vendorname/extensionname/ moeten zijn, in dit geval zou dat Lucifer4o/phpbbgallery moeten zijn. Maar voorlopig is het dus zoals beschreven in stap 2.
+
+
