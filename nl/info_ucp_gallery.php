@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* info_ucp_gallery [English]
+* info_ucp_gallery [Dutch]
 *
 * @package phpBB Gallery
 * @version $Id$
 * @copyright (c) 2007 nickvergessen nickvergessen@gmx.de http://www.flying-bits.org
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 *
 **/
 
@@ -24,8 +25,8 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'UCP_GALLERY'						=> 'Gallery',
-	'UCP_GALLERY_PERSONAL_ALBUMS'		=> 'Manage personal albums',
-	'UCP_GALLERY_SETTINGS'				=> 'Personal settings',
-	'UCP_GALLERY_WATCH'					=> 'Manage subscriptions',
+	'UCP_GALLERY'						=> 'Galerij',
+	'UCP_GALLERY_PERSONAL_ALBUMS'		=> 'Beheer persoonlijke albums',
+	'UCP_GALLERY_SETTINGS'				=> 'Persoonlijke instellingen',
+	'UCP_GALLERY_WATCH'					=> 'Beheer abonnementen',
 ));
