@@ -1,11 +1,11 @@
-Subject: New image notification - "{ALBUM_NAME}"
+Subject: Nieuwe afbeelding in - "{ALBUM_NAME}"
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because you are watching the album, "{ALBUM_NAME}" at "{SITENAME}". This album has received a new image since your last visit, "{IMAGE_NAME}". You can use the following link to view album.
+Je ontvangt dit bericht omdat je bent geabonneerd op het album, "{ALBUM_NAME}" op "{SITENAME}". Dit album heeft een nieuwe afbeelding sinds je laatste bezoek, "{IMAGE_NAME}". Je kan onderstaande link gebruiken om het album te bekijken.
 
 {U_ALBUM}
 
-If you no longer wish to watch this album you can click the "Unsubscribe album" link found in the link above.
+Als je niet langer meer geabonneerd wilt zijn op dit album, klik dan op de "Uitschrijven afbeelding" link, die je kan vinden in de link hierboven.
 
 {EMAIL_SIG}
