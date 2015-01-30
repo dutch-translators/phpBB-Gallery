@@ -1,11 +1,11 @@
-Subject: New comment notification - "{IMAGE_NAME}"
+Subject: Nieuwe reactie op afbeelding - "{IMAGE_NAME}"
 
-Hello {USERNAME},
+Hallo {USERNAME},
 
-You are receiving this notification because you are watching the image, "{IMAGE_NAME}" at "{SITENAME}". This image has received a new comment since your last visit. You can use the following link to read the comment.
+Je ontvangt dit bericht omdat je op een afbeelding bent geabonneerd, "{IMAGE_NAME}" op "{SITENAME}". Deze afbeelding heeft een nieuwe reactie sinds je laatste bezoek. Je kan onderstaande link gebruiken om de reactie te lezen.
 
 {U_IMAGE}
 
-If you no longer wish to watch this image/album you can click the "Unsubscribe image" link found in the link above.
+Als je niet langer meer geabonneerd wilt zijn op deze afbeelding en/of dit album, klik dan op de "Uitschrijven afbeelding" link, die je kan vinden in de link hierboven.
 
 {EMAIL_SIG}
