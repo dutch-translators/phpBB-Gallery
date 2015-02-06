@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* gallery_mcp [English]
+* gallery_mcp [Dutch]
 *
 * @package phpBB Gallery
 * @version $Id$
 * @copyright (c) 2007 nickvergessen nickvergessen@gmx.de http://www.flying-bits.org
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 *
 **/
 
@@ -24,28 +25,28 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'CHOOSE_ACTION'					=> 'Select desired action',
+	'CHOOSE_ACTION'					=> 'Selecteer de gewenste actie',
 
-	'GALLERY_MCP_MAIN'				=> 'Main',
-	'GALLERY_MCP_OVERVIEW'			=> 'Overview',
-	'GALLERY_MCP_QUEUE'				=> 'Queue',
-	'GALLERY_MCP_QUEUE_DETAIL'		=> 'Image details',
-	'GALLERY_MCP_REPORTED'			=> 'Reported images',
-	'GALLERY_MCP_REPO_DONE'			=> 'Closed reports',
-	'GALLERY_MCP_REPO_OPEN'			=> 'Open reports',
-	'GALLERY_MCP_REPO_DETAIL'		=> 'Report details',
-	'GALLERY_MCP_UNAPPROVED'		=> 'Images awaiting approval',
-	'GALLERY_MCP_APPROVED'			=> 'Approved images',
-	'GALLERY_MCP_LOCKED'			=> 'Locked images',
-	'GALLERY_MCP_VIEWALBUM'			=> 'View album',
+	'GALLERY_MCP_MAIN'				=> 'Begin',
+	'GALLERY_MCP_OVERVIEW'			=> 'Overzicht',
+	'GALLERY_MCP_QUEUE'				=> 'Wachtrij',
+	'GALLERY_MCP_QUEUE_DETAIL'		=> 'Afbeelding details',
+	'GALLERY_MCP_REPORTED'			=> 'Gemelde afbeeldingen',
+	'GALLERY_MCP_REPO_DONE'			=> 'Gesloten meldingen',
+	'GALLERY_MCP_REPO_OPEN'			=> 'Open meldingen',
+	'GALLERY_MCP_REPO_DETAIL'		=> 'Melding details',
+	'GALLERY_MCP_UNAPPROVED'		=> 'Afbeeldingen wachtend op goedkeuring',
+	'GALLERY_MCP_APPROVED'			=> 'Goedgekeurde afbeeldingen',
+	'GALLERY_MCP_LOCKED'			=> 'Gesloten afbeelding',
+	'GALLERY_MCP_VIEWALBUM'			=> 'Ga naar album',
 
 	'IMAGE_REPORTED'				=> 'The image was reported.',
-	'IMAGE_UNAPPROVED'				=> 'The image is awaiting for approval.',
+	'IMAGE_UNAPPROVED'				=> 'De afbeelding wacht op goedkeuring.',
 
-	'MODERATE_ALBUM'				=> 'Moderate album',
+	'MODERATE_ALBUM'				=> 'Modereer album',
 
-	'LATEST_IMAGES_REPORTED'		=> 'Latest 5 images reported',
-	'LATEST_IMAGES_UNAPPROVED'		=> 'Latest 5 images awaiting approval',
+	'LATEST_IMAGES_REPORTED'		=> 'Laatste 5 meldingen',
+	'LATEST_IMAGES_UNAPPROVED'		=> 'Laatste 5 afbeeldingen wachtend op goedkeuring',
 
 	'QUEUE_A_APPROVE'				=> 'Approve image',
 	'QUEUE_A_APPROVE2'				=> 'Approve image?',
