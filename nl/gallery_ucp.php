@@ -66,9 +66,9 @@ $lang = array_merge($lang, array(
 	'NO_SUBALBUMS'					=> 'Geen albums toegevoegd',
 	'NO_SUBSCRIPTIONS'				=> 'Je bent niet geabonneerd op een afbeelding.',
 
-	'PARSE_BBCODE'					=> 'Parse BBCode',
-	'PARSE_SMILIES'					=> 'Parse smilies',
-	'PARSE_URLS'					=> 'Parse links',
+	'PARSE_BBCODE'					=> 'BBCode gebruiken',
+	'PARSE_SMILIES'					=> 'Smilies gebruiken',
+	'PARSE_URLS'					=> 'Links gebruiken',
 	'PERSONAL_ALBUM'				=> 'Persoonlijk album',
 
 	'UNSUBSCRIBE'					=> 'Uitschrijven',
