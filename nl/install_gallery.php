@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* install_gallery [English]
+* install_gallery [Dutch]
 *
 * @package phpBB Gallery
 * @version $Id$
 * @copyright (c) 2007 nickvergessen nickvergessen@gmx.de http://www.flying-bits.org
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 *
 **/
 
@@ -24,31 +25,31 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'BBCODES_NEEDS_REPARSE'		=> 'The BBCode needs to be rebuild.',
+	'BBCODES_NEEDS_REPARSE'		=> 'De BBCode moet opnieuw opgebouwd worden.',
 
-	'CAT_CONVERT'				=> 'convert phpBB2',
-	'CAT_CONVERT_TS'			=> 'convert TS Gallery',
-	'CAT_UNINSTALL'				=> 'phpBB Gallery uninstall',
+	'CAT_CONVERT'				=> 'converteer phpBB2',
+	'CAT_CONVERT_TS'			=> 'converteer TS Gallery',
+	'CAT_UNINSTALL'				=> 'phpBB Galerij deïnstalleren',
 
-	'CHECK_TABLES'				=> 'Check tables',
-	'CHECK_TABLES_EXPLAIN'		=> 'The following tables need to exist, so they can be converted.',
+	'CHECK_TABLES'				=> 'Controleer tabellen',
+	'CHECK_TABLES_EXPLAIN'		=> 'De volgende tabellen moeten bestaan zodat ze geconverteerd kunnen worden.',
 
-	'CONVERT_SMARTOR_INTRO'			=> 'Convertor from “Album-MOD“ by smartor to “phpBB Gallery“',
+	'CONVERT_SMARTOR_INTRO'			=> 'Converteer van “Album-MOD“ van Smartor naar “phpBB Galerij“',
 	'CONVERT_SMARTOR_INTRO_BODY'	=> 'With this convertor, you can convert your albums, images, rates and comments from the <a href="http://www.phpbb.com/community/viewtopic.php?f=16&t=74772">Album-MOD</a> by Smartor (tested v2.0.56) and <a href="http://www.phpbbhacks.com/download/5028">Full Album Pack</a> (tested v1.4.1) to the phpBB Gallery.<br /><br /><strong>Note:</strong> The <strong>permissions</strong> will <strong>not be copied</strong>.',
-	'CONVERT_TS_INTRO'				=> 'Convertor from “TS Gallery“ to “phpBB Gallery“',
+	'CONVERT_TS_INTRO'				=> 'Converteer van “TS Gallery“ naar “phpBB Galerij“',
 	'CONVERT_TS_INTRO_BODY'			=> 'With this convertor, you can convert your albums, images, rates and comments from the <a href="http://www.phpbb.com/community/viewtopic.php?f=70&t=610509">TS Gallery</a> (tested v0.2.1) to the phpBB Gallery.<br /><br /><strong>Note:</strong> The <strong>permissions</strong> will <strong>not be copied</strong>.',
 	'CONVERT_COMPLETE_EXPLAIN'		=> 'Conversion from your gallery to phpBB Gallery v%s was successful.<br />Please ensure that the settings were transferred correctly before enabling your board by deleting the install directory.<br /><br /><strong>Please note that the permissions were not copied.</strong><br /><br />You should also clean your database from old entries, where the images are missing. This can be done in “.MODs > phpBB Gallery > Cleanup gallery“.',
 
-	'CONVERTED_ALBUMS'			=> 'The albums were successful copied.',
-	'CONVERTED_COMMENTS'		=> 'The comments were successful copied.',
-	'CONVERTED_IMAGES'			=> 'The images were successful copied.',
-	'CONVERTED_MISC'			=> 'Converted miscellanious things.',
-	'CONVERTED_PERSONALS'		=> 'The personal albums were successful copied.',
-	'CONVERTED_RATES'			=> 'The rates were successful copied.',
-	'CONVERTED_RESYNC_ALBUMS'	=> 'Resyncronize album-stats.',
-	'CONVERTED_RESYNC_COMMENTS'	=> 'Resyncronize comments.',
-	'CONVERTED_RESYNC_COUNTS'	=> 'Resyncronize imagecounters.',
-	'CONVERTED_RESYNC_RATES'	=> 'Resyncronize rates.',
+	'CONVERTED_ALBUMS'			=> 'De albums zijn succesvol gekopieeerd.',
+	'CONVERTED_COMMENTS'		=> 'De reacties zijn succesvol gekopieerd.',
+	'CONVERTED_IMAGES'			=> 'De afbeeldingen zijn succesvol gekopieerd.',
+	'CONVERTED_MISC'			=> 'Diverse onderdelen geconverteerd.',
+	'CONVERTED_PERSONALS'		=> 'De persoonlijke albums zijn succesvol gekopieerd.',
+	'CONVERTED_RATES'			=> 'De beoordelingen zijn succesvol gekopieerd.',
+	'CONVERTED_RESYNC_ALBUMS'	=> 'Album statestieken synchroniseren.',
+	'CONVERTED_RESYNC_COMMENTS'	=> 'Reacties synchroniseren.',
+	'CONVERTED_RESYNC_COUNTS'	=> 'Afbeeldingstellers synchroniseren.',
+	'CONVERTED_RESYNC_RATES'	=> 'Beoordelingen synchroniseren.',
 
 	'FILE_DELETE_FAIL'				=> 'File could not be deleted, you need to delete it manually',
 	'FILE_STILL_EXISTS'				=> 'File still exists',
@@ -66,8 +67,8 @@ $lang = array_merge($lang, array(
 	'INSTALL_CONGRATS_EXPLAIN'	=> 'You have now successfully installed phpBB Gallery v%s.<br/><br/><strong>Please now delete, move or rename the install directory before you use your board. If this directory is still present, only the Administration Control Panel (ACP) will be accessible.</strong>',
 	'INSTALL_INTRO_BODY'		=> 'With this option, it is possible to install phpBB Gallery onto your board.',
 
-	'GOTO_GALLERY'				=> 'Go to phpBB Gallery',
-	'GOTO_INDEX'				=> 'Go to Board-Index',
+	'GOTO_GALLERY'				=> 'Ga naar phpBB Galerij',
+	'GOTO_INDEX'				=> 'Ga naar Forumoverzicht ',
 
 	'MISSING_CONSTANTS'			=> 'Before you can run the install-script, you need to upload your edited files, especially the includes/constants.php.',
 	'MODULES_CREATE_PARENT'		=> 'Create parent standard-module',
@@ -93,15 +94,15 @@ $lang = array_merge($lang, array(
 	<a href="http://www.flying-bits.org/go/paypal"><input type="submit" value="Make PayPal-Donation" name="paypal" id="paypal" class="button1" /></a>
 </div><p>',
 
-	'PHP_SETTINGS'				=> 'PHP settings',
-	'PHP_SETTINGS_EXP'			=> 'These PHP settings and configurations are required for installing and running the gallery.',
-	'PHP_SETTINGS_OPTIONAL'		=> 'Optional PHP settings',
-	'PHP_SETTINGS_OPTIONAL_EXP'	=> 'These PHP settings are <strong>NOT</strong> required for normal usage, but will give some extra features.',
+	'PHP_SETTINGS'				=> 'PHP Instellingen',
+	'PHP_SETTINGS_EXP'			=> 'Deze PHP instellingen en configuraties zijn verplicht voor het installeren en het draaien van de galerij.',
+	'PHP_SETTINGS_OPTIONAL'		=> 'Optionle PHP instelingen',
+	'PHP_SETTINGS_OPTIONAL_EXP'	=> 'Deze PHP instellingen zijn <strong>NIET</strong> verplicht voor normaal gebruik, maak kunnen wel zorgen voor een aantal extra functies.',
 
-	'REQ_GD_LIBRARY'			=> 'GD Library is installed',
-	'REQ_PHP_VERSION'			=> 'php version >= %s',
-	'REQ_PHPBB_VERSION'			=> 'phpBB version >= %s',
-	'REQUIREMENTS_EXPLAIN'		=> 'Before proceeding with the full installation phpBB will carry out some tests on your server configuration and files to ensure that you are able to install and run phpBB Gallery. Please ensure you read through the results thoroughly and do not proceed until all the required tests are passed.',
+	'REQ_GD_LIBRARY'			=> 'GD Library is geïnstalleerd',
+	'REQ_PHP_VERSION'			=> 'php versie >= %s',
+	'REQ_PHPBB_VERSION'			=> 'phpBB versie >= %s',
+	'REQUIREMENTS_EXPLAIN'		=> 'Voordat je verder gaat met de volledige installatie, zal phpBB een aantal test uitvoeren om je serverinstellingen en bestanden te contoleren. Zodat je zeker weet dat je de phpBB galerij kan installeren en draaien. LET OP: Lees de resultaten van deze test goed door om er zeker van te zijn dat alle verplichte tests geslaagd zijn.',
 
 	'STAGE_ADVANCED_EXPLAIN'		=> 'Please choose the parent module for the gallery modules. In normal case you should not change them.',
 	'STAGE_COPY_TABLE'				=> 'Copy database-tables',
@@ -120,15 +121,15 @@ $lang = array_merge($lang, array(
 	'TABLE_MISSING'				=> 'missing',
 	'TABLE_PREFIX_EXPLAIN'		=> 'Prefix of phpBB2-installation',
 
-	'UNINSTALL_INTRO'					=> 'Welcome to Uninstall',
-	'UNINSTALL_INTRO_BODY'				=> 'With this option, it is possible to uninstall phpBB Gallery from your board.<br /><br /><strong>WARNING: All albums, images and comments will be deleted unrecoverable!</strong>',
-	'UNINSTALL_REQUIREMENTS'			=> 'Requirement',
+	'UNINSTALL_INTRO'					=> 'Welkom bij deïnstalleren',
+	'UNINSTALL_INTRO_BODY'				=> 'Met deze optie is het mogelijk om de phpBB galerij te verwijderen van je forum.<br /><br /><strong>WAARSCHUWING: All albums, afbeelding en reacties worden verwijderd. Dit is onomkeerbaar!</strong>',
+	'UNINSTALL_REQUIREMENTS'			=> 'Benodigdheden',
 	'UNINSTALL_REQUIREMENTS_EXPLAIN'	=> 'Before proceeding with the full uninstallation phpBB will carry out some tests to ensure that you are allowed to uninstall phpBB Gallery.',
-	'UNINSTALL_START'					=> 'Uninstall',
-	'UNINSTALL_FINISHED'				=> 'Uninstall nearly finished',
-	'UNINSTALL_FINISHED_EXPLAIN'		=> 'You uninstalled the phpBB Gallery successfully.<br/><br/><strong>Now you only need to undo the steps of the install.xml and delete the files of the gallery. Afterwards your board is completly free from the gallery.</strong>',
+	'UNINSTALL_START'					=> 'Deïnstalleren',
+	'UNINSTALL_FINISHED'				=> 'Deïnstalleren bijna voltooid',
+	'UNINSTALL_FINISHED_EXPLAIN'		=> 'Je hebt de phpBB galerij succesvol gedeïnstalleerd.<br/><br/><strong>Now you only need to undo the steps of the install.xml and delete the files of the gallery. Afterwards your board is completly free from the gallery.</strong>',
 
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Here you can Update your phpBB Gallery-Version.',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Hier kan je de phpBB galerij updaten.',
 
-	'VERSION_NOT_SUPPORTED'		=> 'Sorry, but your updates prior to 1.0.6 are not supported from this install/update-system.',
+	'VERSION_NOT_SUPPORTED'		=> 'Sorry, maar updates van voor versie 1.0.6 worden door deze installatie niet ondersteund.',
 ));
