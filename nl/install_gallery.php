@@ -35,9 +35,9 @@ $lang = array_merge($lang, array(
 	'CHECK_TABLES_EXPLAIN'		=> 'De volgende tabellen moeten bestaan zodat ze geconverteerd kunnen worden.',
 
 	'CONVERT_SMARTOR_INTRO'			=> 'Converteer van “Album-MOD“ van Smartor naar “phpBB Galerij“',
-	'CONVERT_SMARTOR_INTRO_BODY'	=> 'With this convertor, you can convert your albums, images, rates and comments from the <a href="http://www.phpbb.com/community/viewtopic.php?f=16&t=74772">Album-MOD</a> by Smartor (tested v2.0.56) and <a href="http://www.phpbbhacks.com/download/5028">Full Album Pack</a> (tested v1.4.1) to the phpBB Gallery.<br /><br /><strong>Note:</strong> The <strong>permissions</strong> will <strong>not be copied</strong>.',
+	'CONVERT_SMARTOR_INTRO_BODY'	=> 'Met dit conversieprogramma kan je je albums, afbeeldingen, beoordelingen en commentaren van de <a href="http://www.phpbb.com/community/viewtopic.php?f=16&t=74772">Album-MOD</a> van Smartor (getest v2.0.56) en <a href="http://www.phpbbhacks.com/download/5028">Full Album Pack</a> (getest v1.4.1) naar phpBB Galerij omzetten.<br /><br /><strong>Let op:</strong> De <strong>permissies</strong> worden <strong>niet meegenomen</strong>.',
 	'CONVERT_TS_INTRO'				=> 'Converteer van “TS Gallery“ naar “phpBB Galerij“',
-	'CONVERT_TS_INTRO_BODY'			=> 'With this convertor, you can convert your albums, images, rates and comments from the <a href="http://www.phpbb.com/community/viewtopic.php?f=70&t=610509">TS Gallery</a> (tested v0.2.1) to the phpBB Gallery.<br /><br /><strong>Note:</strong> The <strong>permissions</strong> will <strong>not be copied</strong>.',
+	'CONVERT_TS_INTRO_BODY'			=> 'Met dit conversieprogramma kan je je albums, afbeeldingen, beoordelingen en commentaren van de <a href="http://www.phpbb.com/community/viewtopic.php?f=70&t=610509">TS Gallery</a> (getest v0.2.1) naar phpBB Galerij omzetten.<br /><br /><strong>Let op:</strong> De <strong>permissies</strong> worden <strong>niet meegenomen</strong>.',
 	'CONVERT_COMPLETE_EXPLAIN'		=> 'Conversion from your gallery to phpBB Gallery v%s was successful.<br />Please ensure that the settings were transferred correctly before enabling your board by deleting the install directory.<br /><br /><strong>Please note that the permissions were not copied.</strong><br /><br />You should also clean your database from old entries, where the images are missing. This can be done in “.MODs > phpBB Gallery > Cleanup gallery“.',
 
 	'CONVERTED_ALBUMS'			=> 'De albums zijn succesvol gekopieeerd.',
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'FILE_STILL_EXISTS'				=> 'Het bestand bestaat nog steeds',
 	'FILES_REQUIRED_EXPLAIN'		=> '<strong>Verplicht</strong> - In order to function correctly phpBB Gallery needs to be able to access or write to certain files or directories. If you see “Unwritable” you need to change the permissions on the file or directory to allow phpBB to write to it.',
 	'FILES_DELETE_OUTDATED'			=> 'Verwijder verouderde bestanden',
-	'FILES_DELETE_OUTDATED_EXPLAIN'	=> 'When you click to delete the files, they are completly deleted and can not be restored!<br /><br />Please note:<br />If you have more styles and languages installed, you need to delete the files by hand.',
+	'FILES_DELETE_OUTDATED_EXPLAIN'	=> 'Als je op verouderde bestanden verwijderen klikt, dan worden de bestanden volledig verwijderd. Dit kan niet terugedraaid worden!<br /><br />LET OP:<br />Als je meer stijlen en talen hebt geïnstalleerd, dan moet je deze met de hand verwijderen.',
 	'FILES_OUTDATED'				=> 'Verouderde bestanden',
 	'FILES_OUTDATED_EXPLAIN'		=> '<strong>Verouderd</strong> - In order to deny hacking attempts, please remove the following files.',
 	'FOUND_INSTALL'					=> 'Dubbele Installatie',
@@ -64,8 +64,8 @@ $lang = array_merge($lang, array(
 	'FOUNDER_CHECK'					=> 'Je bent een “Oprichter“ van dit forum',
 	'FOUNDER_NEEDED'				=> 'Je moet een “Oprichter“ van dit forum zijn!',
 
-	'INSTALL_CONGRATS_EXPLAIN'	=> 'You have now successfully installed phpBB Gallery v%s.<br/><br/><strong>Please now delete, move or rename the install directory before you use your board. If this directory is still present, only the Administration Control Panel (ACP) will be accessible.</strong>',
-	'INSTALL_INTRO_BODY'		=> 'With this option, it is possible to install phpBB Gallery onto your board.',
+	'INSTALL_CONGRATS_EXPLAIN'	=> 'Je hebt phpBB Galerij v%s succesvol geïnstalleerd.<br/><br/><strong>Verwijder, verplaats of hernoem install map voordat je het forum weer gaat gebruiken. If this directory is still present, only the Administration Control Panel (ACP) will be accessible.</strong>',
+	'INSTALL_INTRO_BODY'		=> 'Met deze optie is het mogelijk op de phpBB Galerij te installeren op je forum.',
 
 	'GOTO_GALLERY'				=> 'Ga naar phpBB Galerij',
 	'GOTO_INDEX'				=> 'Ga naar Forumoverzicht ',
@@ -89,9 +89,9 @@ $lang = array_merge($lang, array(
 	'OPTIONAL_IMAGEROTATE_EXPLAIN'	=> 'Als de functie bestaat kan je afbeeldingen draaien tijdens het uploaden en bewerken.',
 
 	'PAYPAL_DEV_SUPPORT'				=> '</p><div class="errorbox">
-	<h3>Author Notes</h3>
-	<p>Creating, maintaining and updating this MOD required/requires a lot of time and effort, so if you like this MOD and have the desire to express your thanks through a donation, that would be greatly appreciated. My Paypal ID is <strong>nickvergessen@gmx.de</strong>, or contact me for my mailing address.<br /><br />The suggested donation amount for this MOD is 25.00€ (but any amount will help).</p><br />
-	<a href="http://www.flying-bits.org/go/paypal"><input type="submit" value="Make PayPal-Donation" name="paypal" id="paypal" class="button1" /></a>
+	<h3>Opmerking van de auteur</h3>
+	<p>Het maken, onderhouden en bijwerken van deze extensie vraagt veel tijd en moeite, als je deze extensie waardeert en die waardering ook via een donatie wilt laten blijken, dan wordt dat zeer op prijs gesteld. Mijn Paypal ID is <strong>nickvergessen@gmx.de</strong>, of neem contact met me op voor mijn postadres.<br /><br />Het voorgestelde donatiebedrag voor deze extensie is €25,00 (maar alle kleine beetjes helpen).</p><br />
+	<a href="http://www.flying-bits.org/go/paypal"><input type="submit" value="Doe PayPal-Donatie" name="paypal" id="paypal" class="button1" /></a>
 </div><p>',
 
 	'PHP_SETTINGS'				=> 'PHP Instellingen',
@@ -104,13 +104,13 @@ $lang = array_merge($lang, array(
 	'REQ_PHPBB_VERSION'			=> 'phpBB versie >= %s',
 	'REQUIREMENTS_EXPLAIN'		=> 'Voordat je verder gaat met de volledige installatie, zal phpBB een aantal test uitvoeren om je serverinstellingen en bestanden te contoleren. Zodat je zeker weet dat je de phpBB galerij kan installeren en draaien. LET OP: Lees de resultaten van deze test goed door om er zeker van te zijn dat alle verplichte tests geslaagd zijn.',
 
-	'STAGE_ADVANCED_EXPLAIN'		=> 'Please choose the parent module for the gallery modules. In normal case you should not change them.',
-	'STAGE_COPY_TABLE'				=> 'Copy database-tables',
-	'STAGE_COPY_TABLE_EXPLAIN'		=> 'The database-tables for the album- and user-data have the same names in TS Gallery and phpBB Gallery. So we create a copy to be able to convert the data.',
-	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'The database tables used by phpBB Gallery have been created and populated with some initial data. Proceed to the next screen to finish installing phpBB Gallery.',
-	'STAGE_DELETE_TABLES'			=> 'Clean database',
-	'STAGE_DELETE_TABLES_EXPLAIN'	=> 'The database-content of the Gallery-MOD was deleted. Proceed to the next screen to finish uninstalling phpBB Gallery.',
-	'SUPPORT_BODY'					=> 'Full support will be provided for the current stable release of phpBB Gallery, free of charge. This includes:</p><ul><li>installation</li><li>configuration</li><li>technical questions</li><li>problems relating to potential bugs in the software</li><li>updating from Release Candidate (RC) versions to the latest stable version</li><li>converting from Smartor’s Album-MOD for phpBB 2.0.x to phpBB Gallery for phpBB3</li><li>converting from TS Gallery to phpBB Gallery</li></ul><p>The use of Beta-Versions is limited recommended. If there are updates, it’s recommended to update quickly.</p><p>Support is given on the following boards</p><ul><li><a href="http://www.flying-bits.org/">flying-bits.org - MOD-Autor nickvergessen’s board</a></li><li><a href="http://www.phpbb.de/">phpbb.de</a></li><li><a href="http://www.phpbb.com/">phpbb.com</a></li></ul><p>',
+	'STAGE_ADVANCED_EXPLAIN'		=> 'Kies een hoofd-module voor de Galerij-modules. Normaal gezien verander je dit niet.',
+	'STAGE_COPY_TABLE'				=> 'Kopieer de database-tabellen ',
+	'STAGE_COPY_TABLE_EXPLAIN'		=> 'De database-tabellen met de albums en gebruikersgegevens van TS Gallery hebben dezelfde namen als voor phpBB Galerij. Daarom is er een kopie aangemaakt om de gegevens toch te kunnen importeren.',
+	'STAGE_CREATE_TABLE_EXPLAIN'	=> 'De database-tabellen die phpBB Galerij gebruikt zijn aangemaakt en gevuld met de eerste gegevens. Ga verder naar het volgende scherm om de installatie van phpBB Galerij te voltooien.',
+	'STAGE_DELETE_TABLES'			=> 'Database opschonen',
+	'STAGE_DELETE_TABLES_EXPLAIN'	=> 'De database-inhoud van de Galerij-MOD is verwijderd. Ga verder naar het volgende scherm on de deïnstallatie van de phpBB Galerij te voltooien.',
+	'SUPPORT_BODY'					=> 'Volledige ondersteunig voor de huidige stabiele versie voor de phpBB Galerij, wordt gratis aangeboden. Dit omvat:</p><ul><li>Installatie</li><li>Instellingen</li><li>Technische vragen</li><li>problemen door potentiële fouten in deze software</li><li>updaten Release Candidate (RC) versies naar de laatste stabiele versie</li><li>conversie van Smartor’s Album-MOD voor phpBB 2.0.x naar phpBB Galerij voor phpBB3</li><li>conversie van TS Gallery naar phpBB Galerij</li></ul><p>Het gebruik van Beta-versies oftewel test-vesies wordt afgeraden. Als er een nieuwe versie is, wordt het aangeraden zosnel mogelijk te updaten.</p><p>Support wordt gegeven op deze forums</p><ul><li><a href="http://www.flying-bits.org/">flying-bits.org - MOD-Autor nickvergessen’s board</a></li><li><a href="http://www.phpbb.de/">phpbb.de</a></li><li><a href="http://www.phpbb.com/">phpbb.com</a></li></ul><p>',
 
 	'TABLE_ALBUM'				=> 'tabel met de afbeeldingen',
 	'TABLE_ALBUM_CAT'			=> 'tabel met de albums',
@@ -124,7 +124,7 @@ $lang = array_merge($lang, array(
 	'UNINSTALL_INTRO'					=> 'Welkom bij deïnstalleren',
 	'UNINSTALL_INTRO_BODY'				=> 'Met deze optie is het mogelijk om de phpBB galerij te verwijderen van je forum.<br /><br /><strong>WAARSCHUWING: All albums, afbeelding en reacties worden verwijderd. Dit is onomkeerbaar!</strong>',
 	'UNINSTALL_REQUIREMENTS'			=> 'Benodigdheden',
-	'UNINSTALL_REQUIREMENTS_EXPLAIN'	=> 'Before proceeding with the full uninstallation phpBB will carry out some tests to ensure that you are allowed to uninstall phpBB Gallery.',
+	'UNINSTALL_REQUIREMENTS_EXPLAIN'	=> 'Voordat je verder gaat met het volledig verwijderen, voert phpBB een aantal tests uitvoeen om zeker te zijn dat je de phpBB Galerij mag verwijderen.',
 	'UNINSTALL_START'					=> 'Deïnstalleren',
 	'UNINSTALL_FINISHED'				=> 'Deïnstalleren bijna voltooid',
 	'UNINSTALL_FINISHED_EXPLAIN'		=> 'Je hebt de phpBB galerij succesvol gedeïnstalleerd.<br/><br/><strong>Nu hoef je alleen nog maar de stappen uit de install.xml te volgen en alle bestanden en wijzigingen te verwijderen. Daarna is je forum volledig van de Galerij verlost.</strong>',
