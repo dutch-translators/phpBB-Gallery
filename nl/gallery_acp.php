@@ -260,6 +260,9 @@ $lang = array_merge($lang, array(
 	'RANDOM_ON_INDEX'				=> 'Laat willekeuringen afbeeldingen zien op index',
 	'RANDOM_ON_INDEX_EXP'			=> 'Wil je willekeurige afbeeldingen op de galerij index weergeven.',
 	'RANDOM_ON_INDEX_COUNT'			=> 'Willikeurige afbeeldingsteller',
+	'RECENT_ON_INDEX'				=> 'Laat recente afbeeldingen zien',
+	'RECENT_ON_INDEX_EXP'			=> 'Wil je recente afbeeldingen op de galerij index weergeven',
+	'RECENT_ON_INDEX_COUNT'			=> 'Recente afbeeldingsteller',
 	'PHPBB_INTEGRATION'				=> 'phpBB integratie',
 	'PNG_ALLOWED'					=> 'Bevoegt om PNG bestanden te uploaden',
 	'PURGED_CACHE'					=> 'Cache legen',
@@ -313,6 +316,7 @@ $lang = array_merge($lang, array(
 	'RRC_PROFILE_MODE'				=> 'Modus van “Recente &amp; willekeurige afbeeldingen“-opties in het profiel',
 	'RRC_PROFILE_MODE_EXP'			=> 'Het laden van de “Willekeurige afbeeldingen“ kan enkele minuten duren bij grote databases!',
 	'RRC_PROFILE_ROWS'				=> 'Rijen',
+	'RRC_PROFILE_ITEMS'				=> 'Items in gebruikersprofiel',
 
 	'RSZ_HEIGHT'					=> 'Maximum-hoogte bij het bekijken van de afbeelding',
 	'RSZ_WIDTH'						=> 'Maximum-breedte bij het bekijken van de afbeelding',

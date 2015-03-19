@@ -39,6 +39,7 @@ $lang = array_merge($lang, array(
 	'GALLERY_MCP_APPROVED'			=> 'Goedgekeurde afbeeldingen',
 	'GALLERY_MCP_LOCKED'			=> 'Gesloten afbeelding',
 	'GALLERY_MCP_VIEWALBUM'			=> 'Ga naar album',
+	'GALLERY_MCP_ALBUM_OVERVIEW'	=> 'Modereer album',
 
 	'IMAGE_REPORTED'				=> 'De afbeelding is gemeld.',
 	'IMAGE_UNAPPROVED'				=> 'De afbeelding wacht op goedkeuring.',
@@ -79,6 +80,7 @@ $lang = array_merge($lang, array(
 	'QUEUES_A_UNAPPROVE'			=> 'Afbeeldingen afkeuren',
 	'QUEUES_A_UNAPPROVE2'			=> 'Afbeeldingen afkeuren?',
 	'QUEUES_A_UNAPPROVE2_CONFIRM'	=> 'Weet je zeker dat je deze afbeeldingen wilt afkeuren?',
+	'QUEUES_A_DISAPPROVE2_CONFIRM'	=> 'Weet je zeker dat je deze afbeeldingen wilt afkeuren?',
 
 	'REPORT_A_CLOSE'				=> 'Sluit melding',
 	'REPORT_A_CLOSE2'				=> 'Melding sluiten?',
@@ -114,6 +116,11 @@ $lang = array_merge($lang, array(
 		1			=> 'In totaal is er <span style="font-weight: bold;">1</span> afbeelding goedgekeurd.',
 		2			=> 'In totaal zijn er <span style="font-weight: bold;">%s</span> afbeeldingen goedgekeurd.',
 	),
+	'WAITING_DISPPROVED_IMAGE'		=> array(
+		0			=> 'Geen afgekeurde afbeeldingen.',
+		1			=> 'In totaal is er <span style="font-weight: bold;">1</span> afbeelding afgekleurd.',
+		2			=> 'In totaal zijn er <span style="font-weight: bold;">%s</span> afbeeldingen afgekeurd.',
+	),	
 	'WAITING_LOCKED_IMAGE'			=> array(
 		0			=> 'Geen gesloten afbeeldingen.',
 		1			=> 'In totaal is er <span style="font-weight: bold;">1</span> afbeelding gesloten.',
@@ -134,4 +141,15 @@ $lang = array_merge($lang, array(
 		1			=> 'In totaal is er <span style="font-weight: bold;">1</span> afbeelding die wacht op goedkeuring.',
 		2			=> 'In totaal zijn er <span style="font-weight: bold;">%s</span> afbeeldingen die wachten op goedkeuring.',
 	),
+	'DELETED_IMAGES'		=> array(
+		0			=> 'Geen verwijderde afbeeldingen.',
+		1			=> 'In totaal is er <span style="font-weight: bold;">1</span> afbeelding verwijderd.',
+		2			=> 'In totaal zijn er <span style="font-weight: bold;">%s</span> afbeeldingen verwijderd.',
+	),
+	'MOVED_IMAGES'		=> array(
+		0			=> 'Er zijn geen afbeeldingen verplaatst.',
+		1			=> 'In totaal is er <span style="font-weight: bold;">1</span> afbeelding verplaatst.',
+		2			=> 'In totaal zijn er <span style="font-weight: bold;">%s</span> afbeeldingen verplaatst.',
+	),
+	'NO_WAITING_UNAPPROVED_IMAGE'	=> 'Geen afbeeldingen wachtend op goekeuring.',
 ));

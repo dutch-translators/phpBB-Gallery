@@ -29,6 +29,7 @@ $lang = array_merge($lang, array(
 	'ACCESS_CONTROL_REGISTERED'		=> 'Geregistreerde gebruikers',
 	'ACCESS_CONTROL_NOT_FOES'		=> 'Geregistreerde gebruikers, behalve je vijanden',
 	'ACCESS_CONTROL_FRIENDS'		=> 'Alleen je vrienden',
+	'ACCESS_CONTROL_SPECIAL_FRIENDS'		=> 'Alleen je speciale vrienden',
 	'ALBUMS'						=> 'Albums',
 	'ALBUM_ACCESS'					=> 'Sta toegang toe voor',
 	'ALBUM_ACCESS_EXPLAIN'			=> 'Je kan je %1$sVrienden en Vijanden lijst%2$s gebruiken om de toegang tot je album te regelen. Echter, <strong>moderators</strong> hebben <strong>altijd/strong> toegang tot je album.',

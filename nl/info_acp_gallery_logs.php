@@ -25,6 +25,16 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
+	'ACP_LOG_GALLERY_MOD'						=> 'Moderator log',
+	'ACP_LOG_GALLERY_MOD_EXP'						=> 'Moderator log',
+	'ACP_LOG_GALLERY_ADM'						=> 'Administrator log',
+	'ACP_LOG_GALLERY_ADM_EXP'						=> 'Administrator log',
+	'ACP_LOG_GALLERY_SYSTEM'						=> 'System log',
+	'ACP_LOG_GALLERY_SYSTEM_EXP'						=> 'System log',
+	'LOG_GALLERY_SHOW_LOGS'						=> 'Show only',
+
+	'SORT_USER_ID'							=> 'User ID',
+
 	'LOG_ALBUM_ADD'							=> '<strong>Nieuw album aangemaakt</strong><br />» %s',
 	'LOG_ALBUM_DEL_ALBUM'					=> '<strong>Album verwijderd</strong><br />» %s',
 	'LOG_ALBUM_DEL_ALBUMS'					=> '<strong>Album met subalbums verwijderd</strong><br />» %s',
@@ -53,6 +63,7 @@ $lang = array_merge($lang, array(
 	'LOG_GALLERY_REPORT_DELETED'		=> '<strong>Melding verwijderd</strong><br />» %s',
 	'LOG_GALLERY_REPORT_OPENED'			=> '<strong>Melding heropend</strong><br />» %s',
 	'LOG_GALLERY_UNAPPROVED'			=> '<strong>Afbeelding wachtend op goedkeuring</strong><br />» %s',
+	'LOG_GALLERY_DISAPPROVED'			=> '<strong>Afbeelding afgekeurd</strong><br />» %s',
 
 	'LOGVIEW_VIEWALBUM'					=> 'Ga naar album',
 	'LOGVIEW_VIEWIMAGE'					=> 'Ga naar afbeelding',
