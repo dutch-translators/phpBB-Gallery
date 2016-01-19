@@ -25,15 +25,15 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'ACP_LOG_GALLERY_MOD'						=> 'Moderator log',
-	'ACP_LOG_GALLERY_MOD_EXP'						=> 'Moderator log',
-	'ACP_LOG_GALLERY_ADM'						=> 'Administrator log',
-	'ACP_LOG_GALLERY_ADM_EXP'						=> 'Administrator log',
-	'ACP_LOG_GALLERY_SYSTEM'						=> 'System log',
-	'ACP_LOG_GALLERY_SYSTEM_EXP'						=> 'System log',
-	'LOG_GALLERY_SHOW_LOGS'						=> 'Show only',
+	'ACP_LOG_GALLERY_MOD'						=> 'Moderatorlog',
+	'ACP_LOG_GALLERY_MOD_EXP'						=> 'Moderatorlog',
+	'ACP_LOG_GALLERY_ADM'						=> 'Beheerderslog',
+	'ACP_LOG_GALLERY_ADM_EXP'						=> 'Beheerderslog',
+	'ACP_LOG_GALLERY_SYSTEM'						=> 'Systeemlog',
+	'ACP_LOG_GALLERY_SYSTEM_EXP'						=> 'Systeemlog',
+	'LOG_GALLERY_SHOW_LOGS'						=> 'Toon alleen',
 
-	'SORT_USER_ID'							=> 'User ID',
+	'SORT_USER_ID'							=> 'Gebruikers-ID',
 
 	'LOG_ALBUM_ADD'							=> '<strong>Nieuw album aangemaakt</strong><br />» %s',
 	'LOG_ALBUM_DEL_ALBUM'					=> '<strong>Album verwijderd</strong><br />» %s',
