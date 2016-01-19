@@ -117,6 +117,7 @@ $lang = array_merge($lang, array(
 	'DESC_TOO_LONG'					=> 'Je omschrijving is te lang',
 	'DESCRIPTION_LENGTH'			=> 'Je kan hier een omschrijving invoeren, deze mag niet meer dan <strong>%d</strong> karakters bevatten.',
 	'DETAILS'						=> 'Details',
+	'DISALLOWED_EXTENSION'			=> 'De afbeeldingsextensie is niet toegestaan',
 	'DONT_RATE_IMAGE'				=> 'Beoordeel afbeeldingen niet',
 
 	'EDIT_COMMENT'					=> 'Wijzig reactie',
@@ -131,6 +132,8 @@ $lang = array_merge($lang, array(
 	'FILETYPES_JPG'					=> 'jpg',
 	'FILETYPES_PNG'					=> 'png',
 	'FILETYPES_ZIP'					=> 'zip',
+	
+	'FULL_EDITOR'					=> 'Full editor',
 
 	'GALLERY_IMAGE'					=> 'Afbeelding',
 	'GALLERY_IMAGES'					=> 'Afbeeldingen',
@@ -150,11 +153,13 @@ $lang = array_merge($lang, array(
 	'IMAGE_PCT'							=> '%.2f%% van alle afbeeldingen',
 	'IMAGE_STATUS'						=> 'Status',
 	'IMAGE_URL'							=> 'Afbeeldingslink',
+	'IMAGE_VIEWS'						=> 'Weergaves',
 	'IMAGE_WIDTH'						=> 'Afbeeldingsbreedte',
 	'IMAGES_REPORTED_SUCCESSFULLY'		=> 'Deze afbeelding is succesvol gemeld',
 	'IMAGES_UPDATED_SUCCESSFULLY'		=> 'De afbeeldingsinformatie is succesvol bijgewerkt',
 	'INSERT_IMAGE_POST'					=> 'Voeg afbeelding aan bericht toe',
 	'INVALID_USERNAME'					=> 'Je gebruikersnaam is ongeldig',
+	'INVALID_IMAGE'					    => 'De afbeelding is ongeldig',
 
 	'LAST_COMMENT'					=> 'Laatste reactie',
 	'LAST_IMAGE'					=> 'Laatste afbeelding',
@@ -190,6 +195,8 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_FILE_TYPE'			=> 'Dit bestandstype is niet toegestaan',
 	'NOT_RATED'						=> 'Niet beoordeeld',
 
+	'NO_WRITE_ACCESS'				=> 'The upload directory is missing or phpBB has no write access to it.<br>Please contact the board admin!',
+	
 	'ORDER'							=> 'Volgorde',
 	'ORIG_FILENAME'					=> 'Gebruik bestandsnaam als afbeeldingsnaam (het invoerveld heeft geen functie)',
 	'OUT_OF_RANGE_VALUE'			=> 'Waarde is buiten bereik',
@@ -245,6 +252,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_RECENT'					=> 'Recente afbeeldingen',
 	'NO_SEARCH_RESULTS_RECENT'		=> 'Er zijn geen afbeeldingen of je hebt geen rechten om ze te zien!',
 	'SEARCH_RECENT_COMMENTS'		=> 'Recente reacties',
+	'NO_SEARCH_RESULTS_RECENT_COMMENTS'	=> 'There are no recent comments or you do not have access!',
 	'SEARCH_SUBALBUMS'				=> 'Doorzoek subalbums',
 	'SEARCH_TOPRATED'				=> 'Hoogst beoordeelde afbeeldingen',
 	'SEARCH_USER_IMAGES'			=> 'Zoek naar gebruikers afbeeldingen',
@@ -354,4 +362,5 @@ $lang = array_merge($lang, array(
 	),
 	
 	'QUICK_MOD'	=> 'Selecteer moderator actie',
+	'WRONG_FILESIZE'	=> 'Image is bigger then the limit!',
 ));
