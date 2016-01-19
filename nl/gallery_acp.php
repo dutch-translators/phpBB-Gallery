@@ -14,7 +14,15 @@
 /**
 * DO NOT CHANGE
 */
+if (!defined('IN_PHPBB'))
+{
+	exit;
+}
 
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
 
 $lang = array_merge($lang, array(
 	'ACP_GALLERY_OVERVIEW'			=> 'phpBB Galerij',
@@ -332,8 +340,6 @@ $lang = array_merge($lang, array(
 	'SELECTED_GROUPS'				=> 'Geselecteerde groepen',
 	'SELECTED_PERM_SYS'				=> 'Geselecteerd permissie-systeem',
 	'SET_PERMISSIONS'				=> '<br />Stel <a href="%s">permissies</a> nu in.',
-	'SHORTED_IMAGENAMES'			=> 'Afbeeldingsnamen inkorten',
-	'SHORTED_IMAGENAMES_EXP'		=> 'Als de naam van de afbeelding te lang is en geen spaties bevat, dan kan de pagina-opmaak verminkt worden.',
 	'SORRY_NO_STATISTIC'			=> 'Sorry, deze statistiek is nog niet beschikbaar .',
 	'SYNC_IN_PROGRESS'				=> 'Album synchronisatie ...',
 	'SYNC_IN_PROGRESS_EXPLAIN'		=> 'Synchronisatie afbeeldingen nummers %1$d/%2$d.',
