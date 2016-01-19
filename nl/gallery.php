@@ -133,7 +133,7 @@ $lang = array_merge($lang, array(
 	'FILETYPES_PNG'					=> 'png',
 	'FILETYPES_ZIP'					=> 'zip',
 	
-	'FULL_EDITOR'					=> 'Full editor',
+	'FULL_EDITOR'					=> 'Volledige bewerker',
 
 	'GALLERY_IMAGE'					=> 'Afbeelding',
 	'GALLERY_IMAGES'					=> 'Afbeeldingen',
@@ -195,7 +195,7 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_FILE_TYPE'			=> 'Dit bestandstype is niet toegestaan',
 	'NOT_RATED'						=> 'Niet beoordeeld',
 
-	'NO_WRITE_ACCESS'				=> 'The upload directory is missing or phpBB has no write access to it.<br>Please contact the board admin!',
+	'NO_WRITE_ACCESS'				=> 'De upload map ontbreekt of phpBB heeft geen schrijfrechten.<br>Neem alstublieft contact op met de forumbeheerder!',
 	
 	'ORDER'							=> 'Volgorde',
 	'ORIG_FILENAME'					=> 'Gebruik bestandsnaam als afbeeldingsnaam (het invoerveld heeft geen functie)',
@@ -252,7 +252,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_RECENT'					=> 'Recente afbeeldingen',
 	'NO_SEARCH_RESULTS_RECENT'		=> 'Er zijn geen afbeeldingen of je hebt geen rechten om ze te zien!',
 	'SEARCH_RECENT_COMMENTS'		=> 'Recente reacties',
-	'NO_SEARCH_RESULTS_RECENT_COMMENTS'	=> 'There are no recent comments or you do not have access!',
+	'NO_SEARCH_RESULTS_RECENT_COMMENTS'	=> 'Er zijn geen recente reacties of je hebt geen rechten om ze te zien!',
 	'SEARCH_SUBALBUMS'				=> 'Doorzoek subalbums',
 	'SEARCH_TOPRATED'				=> 'Hoogst beoordeelde afbeeldingen',
 	'SEARCH_USER_IMAGES'			=> 'Zoek naar gebruikers afbeeldingen',
@@ -362,5 +362,5 @@ $lang = array_merge($lang, array(
 	),
 	
 	'QUICK_MOD'	=> 'Selecteer moderator actie',
-	'WRONG_FILESIZE'	=> 'Image is bigger then the limit!',
+	'WRONG_FILESIZE'	=> 'De afbeeldingsgrootte is groter dan toegestaan!',
 ));
