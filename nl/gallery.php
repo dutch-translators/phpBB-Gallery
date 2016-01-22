@@ -325,25 +325,25 @@ $lang = array_merge($lang, array(
 
 	'VISIT_GALLERY'					=> 'Bezoek gebruikers galerij',
 
-	'VIEW_ALBUM'					=> 'View album',
+	'VIEW_ALBUM'					=> 'Bekijk album',
 	'VIEW_ALBUM_IMAGES'				=> array(
-		1	=> '1 image',
-		2	=> '%s images',
+		1	=> '1 afbeelding',
+		2	=> '%s afbeeldingen',
 	),
-	'VIEW_IMAGE'					=> 'View image',
+	'VIEW_IMAGE'					=> 'Bekijk afbeelding',
 	'VIEW_IMAGE_COMMENTS'			=> array(
 		1	=> '1 reactie',
 		2	=> '%s reacties',
 	),
-	'VIEW_LATEST_IMAGE'				=> 'View the latest image',
+	'VIEW_LATEST_IMAGE'				=> 'Bekijk de laatste afbeeldingen',
 	'VIEW_SEARCH_RECENT'			=> 'Recente afbeeldingen',
 	'VIEW_SEARCH_RANDOM'			=> 'Willikeurige afbeeldingen',
 	'VIEW_SEARCH_COMMENTED'			=> 'Recente reacties',
-	'VIEW_SEARCH_CONTESTS'			=> 'View contest winners',
+	'VIEW_SEARCH_CONTESTS'			=> 'Wedstrijd winnaars',
 	'VIEW_SEARCH_TOPRATED'			=> 'Best beoordeelde afbeeldingen',
 	'VIEW_SEARCH_SELF'				=> 'Je afbeeldingen',
-	'VIEWING_ALBUM'					=> 'Viewing album %s',
-	'VIEWING_IMAGE'					=> 'Viewing image in album %s',
+	'VIEWING_ALBUM'					=> 'Bekijkt het album %s',
+	'VIEWING_IMAGE'					=> 'Bekijkt afbeeldingen in het album %s',
 
 	'WATCH_ALBUM'					=> 'Abonneer album',
 	'WATCH_IMAGE'					=> 'Abonneer afbeelding',
