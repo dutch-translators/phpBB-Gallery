@@ -132,7 +132,7 @@ $lang = array_merge($lang, array(
 	'DISP_VIEWTOPIC_IMAGES'			=> 'Afbeeldingsteller weergeven in viewtopic.' . $phpEx,
 	'DISP_VIEWTOPIC_LINK'			=> 'Koppel de afbeeldingenteller aan de afbeeldingen van de gebruiker',
 	'DISP_WHOISONLINE'				=> '“Wie is online“ weergeven',
-	'DISPLAY_IN_RRC'				=> 'Laat afbeeldingen uit dit albul zien in de “Recente-Willikeurige“-afbeeldingen',
+	'DISPLAY_IN_RRC'				=> 'Laat afbeeldingen uit dit album zien in de “Recente-Willikeurige“-afbeeldingen',
 	'DONT_COPY_PERMISSIONS'			=> 'Permissies niet kopiëren',
 
 	'EDIT_ALBUM'					=> 'Wijzig album',
