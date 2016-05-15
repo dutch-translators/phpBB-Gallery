@@ -35,7 +35,7 @@ $lang = array_merge($lang, array(
 	'ALBUM_REACHED_QUOTA'			=> 'Dit album heeft het aantal afbeeldingen dat geupload mag worden bereikt, je kan geen nieuwe afbeeldingen uploaden.<br />Neem contact op met de beheerder voor meer informatie.',
 	'ALBUM_UPLOAD_NEED_APPROVAL'		=> 'Je afbeeldingen zijn succesvol geüpload.<br /><br />Je afbeeldingen moeten eerst goedgekeurd worden door een beheerder of moderator voordat deze zichtbaar zijn voor het publiek.',
 	'ALBUM_UPLOAD_NEED_APPROVAL_ERROR'	=> 'Sommige afbeeldingen zijn succesvol geüpload.<br /><br />Je afbeeldingen moeten eerst goedgekeurd worden door een beheerder of moderator voordat deze zichtbaar zijn voor het publiek.<br /><br /><p class="error">%s</p>',
-	'ALBUM_UPLOAD_SUCCESSFUL'		=> 'Je afbeeldingen zijn succesvol geüpload .',
+	'ALBUM_UPLOAD_SUCCESSFUL'		=> 'Je afbeeldingen zijn succesvol geüpload.',
 	'ALBUM_UPLOAD_SUCCESSFUL_ERROR'	=> 'Sommige afbeeldingen zijn succesvol geüpload.<br /><br /><span class="error">%s</span>',
 	'ALBUMS_MARKED'					=> 'Alle albums zijn als gelezen gemarkeerd.',
 	'ALL'							=> 'Alle',
