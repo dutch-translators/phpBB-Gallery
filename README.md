@@ -3,6 +3,11 @@ phpBB-Gallery
 
 Dutch translation of the phpBB Gallery extension by Satanasov
 
+Mededeling 17-05-2016
+=============
+Inmiddels maakt deze vertaling deel uit van de Gallerij extensie, dat houd in dat de Nederlandse vertaling aan de Gallerij extensie is toevoegd en in het pakket zit. 
+
+
 Comming soon!!
 =============
 Ik heb contact gehad met de ontwikkelaar van deze extensie, hij vertelde mij dat er in versie 1.2 weinig veranderingen zullen zijn tenopzichte van de modificatie. In 1.2.1 zullen de grote wijzigingen komen, maar wij konden alvast beginnen met de vertaling was zijn antwoord.
